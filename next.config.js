@@ -8,10 +8,11 @@ const nextConfig = {
         hostname: "raw.githubusercontent.com"
       },
     ],
-  },
-  experimental: {
+  }
+  // },
+  /* experimental: {
     serverActions: true,
-  },
+  }, */
 };
 
 module.exports = nextConfig;
