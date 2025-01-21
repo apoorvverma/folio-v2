@@ -8,10 +8,10 @@ export default function Footer() {
         Looking for an easter egg 🥚? Try clicking Hello!
       </p>
       <small className="mb-2 block text-xs">
-        &copy;{new Date().getFullYear()} Apoorv 👨🏻‍💻. Code is open source on <a href="https://github.com/apoorvverma/folio-v2" target="_blank" className="underline" >GitHub</a> 🤓. Feel free to fork and make your own version.
+        &copy;{new Date().getFullYear()} Apoorv. Code is open source on <a href="https://github.com/apoorvverma/folio-v2" target="_blank" className="underline" >GitHub</a>. Feel free to fork and make your own version.
       </small>
       <p className="mb-2 text-xs block">
-        Built with ❤️ using Next.js & Tailwind CSS.
+        Built with Next.js & Tailwind CSS.
       </p>
         {/* <span className="font-semibold">About this website:</span> built with
         React & Next.js (App Router & Server Actions), TypeScript, Tailwind CSS,
