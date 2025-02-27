@@ -1,5 +1,6 @@
 import React from "react";
 import { FaAws, FaNodeJs, FaReact } from "react-icons/fa";
+import { PiStudent } from "react-icons/pi";
 import finTrackerImg from "@/public/finance-tracker.png";
 import bankingCloneImg from "@/public/banking-clone.png";
 import portfolioImg from "@/public/portfolio.png";
@@ -34,12 +35,20 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Teaching Fellow - Data Science with Python",
+    location: "Computing & Data Sciences at Boston University",
+    description:
+      "Guiding students in foundational data science and Python programming through hands-on instruction, mentorship, and academic support at Boston University’s Faculty of Computing & Data Sciences.",
+    icon: React.createElement(PiStudent),
+    date: "JAN 2025 - Present",
+  },
+  {
     title: "Information Systems Specialist - Part Time",
     location: "Grad Student - Boston University, USA",
     description:
       "Provided End-to-End technical support, addressing hardware/software issues & collaborated with IT Teams to ensure timely resolution of the same.",
     icon: React.createElement(FiMonitor  ),
-    date: "FEB 2024 - Present",
+    date: "FEB 2024 - JAN 2025",
   },
   {
     title: "Software Development Engineer 2",
