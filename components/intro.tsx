@@ -10,7 +10,7 @@ import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import { Typewriter } from 'react-simple-typewriter'
 
-const expYears = new Date().getFullYear() - 2021;
+const expYears = new Date().getFullYear() - 2022;
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -104,7 +104,7 @@ export default function Intro() {
           /> <br/>
         I'm a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">{expYears} years</span> of experience.
+        <span className="font-bold">{expYears}+ years</span> of experience.
         
       </motion.h1>
 
