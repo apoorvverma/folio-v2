@@ -93,7 +93,7 @@ export default function Intro() {
         I'm <span className="font-bold">Apoorv Verma.<br/></span> 
         I am {" "}
         <Typewriter
-            words={['an Engineer!', 'a Programmer!', 'a Developer!', 'a Designer!', 'just a chill guy!', 'a Creator!', 'an Innovator!', 'a Leader!', 'a Learner!', 'a <coder/>']}
+            words={['an Engineer!', 'a Programmer!', 'a Developer!', 'a DevOps Engineer!', 'a Designer!', 'just a chill guy!', 'an Innovator!', 'a <coder/>']}
             loop={0}
             cursor
             cursorStyle='|'
@@ -103,7 +103,7 @@ export default function Intro() {
             delaySpeed={1500}
           /> <br/>
         I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
+        <span className="font-bold">Software Engineer</span> with{" "}
         <span className="font-bold">{expYears}+ years</span> of experience.
         
       </motion.h1>
@@ -130,7 +130,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/Apoorv Resume.pdf"
+          href="/Apoorv Verma Resume.pdf"
           target="_blank"
         >
           Resume{" "}

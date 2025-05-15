@@ -19,9 +19,10 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-      I am a graduate student pursuing my Master’s in {" "}
-      <span className="font-medium">Computer Information Systems</span> at Boston University, blending my academic journey with my professional experience as a full-stack developer. My {" "}<span className="italic">technical background</span> has honed my skills in designing and building high-performance scalable webapps. I am currently looking for{" "}
-        <span className="font-medium">SDE</span> roles in the tech industry.
+      I am a graduate student completing my Master’s in {" "}
+      <span className="font-medium">Computer Information Systems</span> at Boston University. My expertise spans designing and building high-performance, 
+      scalable web applications, automating infrastructure and pipelines, and ensuring reliable, secure deployments.
+      I’m now seeking opportunities as a Software Engineer or in a DevOps-focused role, so I can help deliver robust, end-to-end solutions in the tech industry.
       </p>
 
       <p>

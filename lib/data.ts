@@ -19,10 +19,10 @@ export const links = [
     name: "Experience",
     hash: "#experience",
   },
-  {
+/*   {
     name: "Skills",
     hash: "#skills",
-  },
+  }, */
   {
     name: "Projects",
     hash: "#projects",
@@ -51,7 +51,7 @@ export const experiencesData = [
     date: "FEB 2024 - JAN 2025",
   },
   {
-    title: "Software Development Engineer 2",
+    title: "Software Engineer 2",
     location: "GYTWorkz Technologies, India",
     description:
       "Worked as the backend lead, architected & developed crucial microservices for pivotal features like engagements, appointment, geofences, etc.",
@@ -59,7 +59,7 @@ export const experiencesData = [
     date: "APR 2023 - AUG 2024",
   },
   {
-    title: "Software Development Engineer 1",
+    title: "Software Engineer 1",
     location: "GYTWorkz Technologies, India",
     description:
       "Worked as a backend developer, architected & developed backends for video conferencing applications.",
@@ -67,7 +67,7 @@ export const experiencesData = [
     date: "JUL 2021 - MAR 2023",
   },
   {
-    title: "Front-End Developer Intern",
+    title: "Software Engineer",
     location: "Digital Projekt, India",
     description:
       "Worked on various front-end projects, from designs to development and lead a team 5 developers through different projects.",
