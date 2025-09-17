@@ -35,10 +35,10 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Teaching Fellow - Data Science with Python",
+    title: "Teaching Fellow - Machine Learning & AI",
     location: "Computing & Data Sciences at Boston University",
     description:
-      "Guiding students in foundational data science and Python programming through hands-on instruction, mentorship, and academic support at Boston University’s Faculty of Computing & Data Sciences.",
+      "Led hands-on labs and projects in ML/AI (deep learning, NLP) using Python, NumPy/Pandas, scikit-learn, and PyTorch; mentored students, reviewed code, and graded while emphasizing evaluation & bias/fairness.",
     icon: React.createElement(PiStudent),
     date: "JAN 2025 - Present",
   },
@@ -51,18 +51,18 @@ export const experiencesData = [
     date: "FEB 2024 - JAN 2025",
   },
   {
-    title: "Software Engineer 2",
+    title: "DevOps Engineer",
     location: "GYTWorkz Technologies, India",
     description:
-      "Worked as the backend lead, architected & developed crucial microservices for pivotal features like engagements, appointment, geofences, etc.",
+      "Built and operated cloud-native CI/CD and infrastructure: Terraform on AWS, Docker/Kubernetes, GitHub Actions→Argo CD, security scanning, and observability (Prometheus/Grafana/ELK).",
     icon: React.createElement(FaAws ),
     date: "APR 2023 - AUG 2024",
   },
   {
-    title: "Software Engineer 1",
+    title: "Software Development Engineer",
     location: "GYTWorkz Technologies, India",
     description:
-      "Worked as a backend developer, architected & developed backends for video conferencing applications.",
+      "Worked as the backend lead, architected & developed crucial microservices for pivotal features like engagements, appointment, geofences, etc.",
     icon: React.createElement(FaNodeJs  ),
     date: "JUL 2021 - MAR 2023",
   },
@@ -70,7 +70,7 @@ export const experiencesData = [
     title: "Software Engineer",
     location: "Digital Projekt, India",
     description:
-      "Worked on various front-end projects, from designs to development and lead a team 5 developers through different projects.",
+      "Worked on various full stack projects, from designs to development and lead a team 5 developers through different projects.",
     icon: React.createElement(FaReact),
     date: "JUL 2020 - JUN 2021",
   },

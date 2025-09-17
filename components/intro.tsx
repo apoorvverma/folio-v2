@@ -10,7 +10,15 @@ import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import { Typewriter } from 'react-simple-typewriter'
 
-const expYears = new Date().getFullYear() - 2022;
+// const expYears = new Date().getFullYear() - 2022;
+const startDate = new Date('2021-06-01');
+const currentDate = new Date();
+let years = currentDate.getFullYear() - startDate.getFullYear();
+const m = currentDate.getMonth() - startDate.getMonth();
+if (m < 0 || (m === 0 && currentDate.getDate() < startDate.getDate())) {
+    years--;
+}
+const expYears = years;
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -103,7 +111,7 @@ export default function Intro() {
             delaySpeed={1500}
           /> <br/>
         I'm a{" "}
-        <span className="font-bold">Software Engineer</span> with{" "}
+        <span className="font-bold">Software/DevOps Engineer</span> with{" "}
         <span className="font-bold">{expYears}+ years</span> of experience.
         
       </motion.h1>
