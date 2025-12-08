@@ -19,15 +19,14 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-      I am a graduate student completing my Master’s in {" "}
-      <span className="font-medium">Computer Information Systems</span> at Boston University. My expertise spans designing and building high-performance, 
-      scalable web applications, automating infrastructure and pipelines, and ensuring reliable, secure deployments.
-      I’m now seeking opportunities as a Software Engineer or in a DevOps-focused role, so I can help deliver robust, end-to-end solutions in the tech industry.
+        I am a Software Engineer with expertise in designing and building high-performance, 
+        scalable web applications, automating infrastructure and pipelines, and ensuring reliable, secure deployments. I recently completed 
+        my Master’s degree in {" "} <span className="font-medium">Computer Information Systems</span> from Boston University.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span> & building amazing things for the web, I enjoy hanging out with friends, playing chess, video games & exploring the outdoors. I love {" "}
-        <span className="font-medium">learning new things</span> & I really enjoy playing sports(football, cricket & badminton the most). Based in Boston, I am constantly inspired by the vibrant tech and creative communities around me.
+        <span className="italic">When I'm not coding</span> and building amazing things for the web, I enjoy hanging out with friends, playing chess, solving puzzles and exploring the outdoors. I love {" "}
+        <span className="font-medium">learning new things</span> and I really enjoy playing sports (football, cricket and tennis). Based in Boston, I am constantly inspired by the vibrant tech and creative communities around me.
       </p>
     </motion.section>
   );

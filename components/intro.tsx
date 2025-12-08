@@ -67,7 +67,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://raw.githubusercontent.com/apoorvverma/folio-v2/main/public/pfp.jpg"
+              src="https://raw.githubusercontent.com/apoorvverma/folio-v2/main/public/pfp.jpeg"
               alt="Apoorv portrait"
               width="192"
               height="192"

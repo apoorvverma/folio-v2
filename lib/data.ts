@@ -35,15 +35,23 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Teaching Fellow - Machine Learning & AI",
-    location: "Computing & Data Sciences at Boston University",
+    title: "Lead Software Engineer - AI Solutions",
+    location: "Luminiphi Labs",
     description:
-      "Led hands-on labs and projects in ML/AI (deep learning, NLP) using Python, NumPy/Pandas, scikit-learn, and PyTorch; mentored students, reviewed code, and graded while emphasizing evaluation & bias/fairness.",
+      "Mentoring a team of devs; running code reviews and owning end-to-end architectures agentic LLM platforms solving real business problems.",
+    icon: React.createElement(PiStudent),
+    date: "SEP 2025 - Present",
+  },
+  {
+    title: "Teaching Fellowship - Machine Learning & AI",
+    location: "College of Computing & Data Sciences, BU",
+    description:
+      "Led hands-on labs and projects in ML/AI (deep learning, NLP) using Python, NumPy/Pandas, scikit-learn, and PyTorch; mentored students, and reviewed their code.",
     icon: React.createElement(PiStudent),
     date: "JAN 2025 - Present",
   },
   {
-    title: "Information Systems Specialist - Part Time",
+    title: "Information Systems Specialist",
     location: "Grad Student - Boston University, USA",
     description:
       "Provided End-to-End technical support, addressing hardware/software issues & collaborated with IT Teams to ensure timely resolution of the same.",
@@ -51,7 +59,7 @@ export const experiencesData = [
     date: "FEB 2024 - JAN 2025",
   },
   {
-    title: "DevOps Engineer",
+    title: "Software Engineer 2 - DevOps",
     location: "GYTWorkz Technologies, India",
     description:
       "Built and operated cloud-native CI/CD and infrastructure: Terraform on AWS, Docker/Kubernetes, GitHub Actions→Argo CD, security scanning, and observability (Prometheus/Grafana/ELK).",
@@ -59,7 +67,7 @@ export const experiencesData = [
     date: "APR 2023 - AUG 2024",
   },
   {
-    title: "Software Development Engineer",
+    title: "Software Engineer",
     location: "GYTWorkz Technologies, India",
     description:
       "Worked as the backend lead, architected & developed crucial microservices for pivotal features like engagements, appointment, geofences, etc.",
@@ -67,7 +75,7 @@ export const experiencesData = [
     date: "JUL 2021 - MAR 2023",
   },
   {
-    title: "Software Engineer",
+    title: "Software Engineering Intern",
     location: "Digital Projekt, India",
     description:
       "Worked on various full stack projects, from designs to development and lead a team 5 developers through different projects.",
