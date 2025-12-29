@@ -111,7 +111,7 @@ export default function Intro() {
             delaySpeed={1500}
           /> <br/>
         I'm a{" "}
-        <span className="font-bold">Software/DevOps Engineer</span> with{" "}
+        <span className="font-bold">Tech Generalist Engineer</span> with{" "}
         <span className="font-bold">{expYears}+ years</span> of experience.
         
       </motion.h1>
