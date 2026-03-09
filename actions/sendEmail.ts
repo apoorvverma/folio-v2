@@ -8,8 +8,16 @@ import ContactFormEmail from "@/email/contact-form-email";
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export const sendEmail = async (formData: FormData) => {
+  const company = formData.get("company");
   const senderEmail = formData.get("senderEmail");
   const message = formData.get("message");
+
+  // Silently ignore likely bot submissions that fill hidden fields.
+  if (typeof company === "string" && company.trim().length > 0) {
+    return {
+      data: { skipped: true },
+    };
+  }
 
   // simple server-side validation
   if (!validateString(senderEmail, 500)) {
