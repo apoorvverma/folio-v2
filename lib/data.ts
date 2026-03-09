@@ -35,12 +35,12 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Lead Software Engineer - AI Solutions",
+    title: "Software Engineer - AI Solutions",
     location: "Luminiphi Labs",
     description:
-      "Mentoring a team of devs; running code reviews and owning end-to-end architectures agentic LLM platforms solving real business problems.",
+      "Mentoring a team of devs; running code reviews and owning end-to-end architectures for agentic LLM platforms solving real business problems.",
     icon: React.createElement(PiStudent),
-    date: "SEP 2025 - Present",
+    date: "AUG 2025 - Present",
   },
   {
     title: "Teaching Fellowship - Machine Learning & AI",
@@ -50,29 +50,29 @@ export const experiencesData = [
     icon: React.createElement(PiStudent),
     date: "JAN 2025 - Present",
   },
-  {
+/*   {
     title: "Information Systems Specialist",
     location: "Grad Student - Boston University, USA",
     description:
       "Provided End-to-End technical support, addressing hardware/software issues & collaborated with IT Teams to ensure timely resolution of the same.",
-    icon: React.createElement(FiMonitor  ),
-    date: "FEB 2024 - JAN 2025",
-  },
+    icon: React.createElement(FiMonitor),
+    date: "JAN 2024 - JAN 2025",
+  }, */
   {
-    title: "Software Engineer 2 - DevOps",
+    title: "Software Engineer 2",
     location: "GYTWorkz Technologies, India",
     description:
-      "Built and operated cloud-native CI/CD and infrastructure: Terraform on AWS, Docker/Kubernetes, GitHub Actions→Argo CD, security scanning, and observability (Prometheus/Grafana/ELK).",
-    icon: React.createElement(FaAws ),
-    date: "APR 2023 - AUG 2024",
+      "Built and operated cloud-native CI/CD and infrastructure: Terraform on AWS, Docker/Kubernetes, GitHub Actions, Argo CD, security scanning, and observability (Prometheus/Grafana/ELK).",
+    icon: React.createElement(FaAws),
+    date: "APR 2022 - DEC 2023",
   },
   {
     title: "Software Engineer",
     location: "GYTWorkz Technologies, India",
     description:
       "Worked as the backend lead, architected & developed crucial microservices for pivotal features like engagements, appointment, geofences, etc.",
-    icon: React.createElement(FaNodeJs  ),
-    date: "JUL 2021 - MAR 2023",
+    icon: React.createElement(FaNodeJs),
+    date: "JUL 2021 - MAR 2022",
   },
   {
     title: "Software Engineering Intern",

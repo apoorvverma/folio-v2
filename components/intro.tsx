@@ -5,7 +5,8 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { FaLinkedin, FaGithub, FaInstagram , FaFacebook, FaSteam} from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaSteam } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import { Typewriter } from 'react-simple-typewriter'
@@ -51,7 +52,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <div className="w-fit mx-auto" onClick={handleClick}>
+        <div className="w-fit mx-auto cursor-grab" onClick={handleClick}>
           {texts[currentIndex]}
         </div>
       </motion.h3>
@@ -77,7 +78,7 @@ export default function Intro() {
             />
           </motion.div>
 
-          <motion.span
+          {/* <motion.span
             className="animate-wave absolute bottom-0 right-0 text-5xl"
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -89,7 +90,7 @@ export default function Intro() {
             }}
           >
             👋
-          </motion.span>
+          </motion.span> */}
         </div>
       </div>
 
@@ -101,7 +102,7 @@ export default function Intro() {
         I'm <span className="font-bold">Apoorv Verma.<br/></span> 
         I am {" "}
         <Typewriter
-            words={['an Engineer!', 'a Programmer!', 'a Developer!', 'a DevOps Engineer!', 'a Designer!', 'just a chill guy!', 'an Innovator!', 'a <coder/>']}
+            words={['an Engineer!', 'a Developer!', 'a DevOps Engineer!', 'a Designer!', 'a Programmer!', 'just a chill guy!', 'an Innovator!', 'a <coder/>']}
             loop={0}
             cursor
             cursorStyle='|'
@@ -111,7 +112,7 @@ export default function Intro() {
             delaySpeed={1500}
           /> <br/>
         I'm a{" "}
-        <span className="font-bold">Tech Generalist Engineer</span> with{" "}
+        <span className="font-bold">Software Engineer</span> with{" "}
         <span className="font-bold">{expYears}+ years</span> of experience.
         
       </motion.h1>
@@ -159,7 +160,7 @@ export default function Intro() {
         >
           <FaGithub />
         </a>
-        <a
+        {/* <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://www.instagram.com/apoorv.vrma/"
           target="_blank"
@@ -172,6 +173,13 @@ export default function Intro() {
           target="_blank"
         >
           <FaFacebook />
+        </a> */}
+        <a
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://x.com/aprvrma"
+          target="_blank"
+        >
+          <FaXTwitter />
         </a>
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
